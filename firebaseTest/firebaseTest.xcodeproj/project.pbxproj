@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4ABF5DD243E697D2832B2111 /* Pods_firebaseTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 612583D53B510B5FDD82359C /* Pods_firebaseTestTests.framework */; };
 		7F12C5D124E48A5700EC86CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F12C5D024E48A5700EC86CE /* GoogleService-Info.plist */; };
+		7F1C521F251BB9B0000060A5 /* FirestoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1C521E251BB9B0000060A5 /* FirestoreViewController.swift */; };
 		7F8A424124E3299500E9AF8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A424024E3299500E9AF8E /* AppDelegate.swift */; };
 		7F8A424324E3299500E9AF8E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A424224E3299500E9AF8E /* SceneDelegate.swift */; };
 		7F8A424524E3299500E9AF8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8A424424E3299500E9AF8E /* ContentView.swift */; };
@@ -45,6 +46,7 @@
 		676403488283EE7844178C10 /* Pods-firebaseTest-firebaseTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseTest-firebaseTestUITests.release.xcconfig"; path = "Target Support Files/Pods-firebaseTest-firebaseTestUITests/Pods-firebaseTest-firebaseTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6C63DA7191DF64CAB86CA6C3 /* Pods-firebaseTest-firebaseTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebaseTest-firebaseTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-firebaseTest-firebaseTestUITests/Pods-firebaseTest-firebaseTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F12C5D024E48A5700EC86CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7F1C521E251BB9B0000060A5 /* FirestoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FirestoreViewController.swift; path = viewControllers/FirestoreViewController.swift; sourceTree = "<group>"; };
 		7F8A423D24E3299500E9AF8E /* firebaseTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebaseTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8A424024E3299500E9AF8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F8A424224E3299500E9AF8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				7F8A424B24E3299600E9AF8E /* LaunchScreen.storyboard */,
 				7F8A424E24E3299600E9AF8E /* Info.plist */,
 				7F8A424824E3299600E9AF8E /* Preview Content */,
+				7F1C521E251BB9B0000060A5 /* FirestoreViewController.swift */,
 			);
 			path = firebaseTest;
 			sourceTree = "<group>";
@@ -421,6 +424,7 @@
 			files = (
 				7F8A424124E3299500E9AF8E /* AppDelegate.swift in Sources */,
 				7F8A424324E3299500E9AF8E /* SceneDelegate.swift in Sources */,
+				7F1C521F251BB9B0000060A5 /* FirestoreViewController.swift in Sources */,
 				7F8A424524E3299500E9AF8E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
